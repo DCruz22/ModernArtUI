@@ -6,5 +6,6 @@
         android:id="@+id/more_information"
         android:title="@string/action_more_information"
         android:orderInCategory="100"
-        android:showAsAction="never"/>
+        android:showAsAction="never"
+        />
 </menu>

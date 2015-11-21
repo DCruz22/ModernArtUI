@@ -3,6 +3,9 @@
 
     <string name="app_name">Modern Art UI</string>
     <string name="action_more_information">More Information</string>
+    <string name="alert_message">This app was made in honor of all the artists of MOMA.\n\nClick below to learn more</string>
+    <string name="visit_moma">Visit MOMA</string>
+    <string name="not_now">Not Now</string>
 
     <color name="color1">#FFFFF3</color>
     <color name="color2">#AFF4FD</color>
