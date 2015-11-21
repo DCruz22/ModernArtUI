@@ -1,9 +1,9 @@
 package com.dariel.cruz.modern_art_ui.activities;
 
-import android.app.Activity;
 import android.app.DialogFragment;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -48,7 +48,10 @@ public class MainActivity extends AppCompatActivity{
 
 
     public void onDialogPositive(){
-
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(Url));
+        Intent chooserIntent = Intent.createChooser(i, "Open with:");
+        startActivity(chooserIntent);
     }
 
     public void onDialogNegative(){
