@@ -13,6 +13,7 @@
         android:orientation="horizontal"
         android:layout_weight="1">
         <LinearLayout
+            android:id="@+id/palette1"
             android:layout_width="160dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -28,6 +29,7 @@
                 android:background="@color/color2"></View>
             </LinearLayout>
         <LinearLayout
+            android:id="@+id/palette2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
